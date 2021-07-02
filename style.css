@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.custom_container{
+    width: 90%;
+}
+
+.custom_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+  
+}
+
+.header_heading{
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.411);
+    margin-bottom: 1rem;
+    /* border: 2px solid black ; */
+}
+
+
+.Header_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+}
+
+
+.button_content{
+    background-color: white;
+    width: 10vw;
+    height: 3vw;
+    outline: none;
+    border: none;
+}
+
+
+.body_text{
+    margin: 2rem 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: 2px solid white; */
+}
+
+.guess_number{
+    margin: 2rem 0;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+
+.all_body_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 10vw;
+}
+
+.line{
+    border: 4px solid white;
+    width: 50%;
+}
+
+.box_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.835);
+    font-size: 3vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.input_button{
+    width: 50vw;
+}
+
+.input_button input{
+    padding-left: 10px;
+    outline: none;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 4vw;
+    width: 20vw;
+    height: 10vw;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.input_text_content{
+    display: flex;
+    justify-content: center;
+}
+
+.start_guessing_section{
+    color: white;
+    width: 50vw;
+}
+
+.input_score_all_content{
+    display: flex;
+}
+
+.start_guessing_section h2{
+    margin-bottom: 2rem;
+    font-size: 4vw;
+}
+
+.start_guessing_section span{
+    font-size: 3vw; 
+    font-weight: 800;
+}
+
+.start_guessing_section h3{
+    margin-bottom: 1rem;
+    font-size: 3vw;
+}
+
